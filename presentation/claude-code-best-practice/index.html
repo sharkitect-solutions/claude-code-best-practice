@@ -497,25 +497,13 @@
     <!-- SLIDE 11: What's a Token?                                    -->
     <!-- ============================================================ -->
     <div class="slide" data-slide="11">
-        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 120px); text-align: center; gap: 0;">
-
-            <!-- Title -->
-            <h1 style="border-bottom: none; padding-bottom: 0; font-size: 2.6rem; margin-bottom: 28px;">Tokens, not words</h1>
-
-            <!-- Screenshot image -->
-            <figure style="max-width: 860px; width: 100%; margin: 0 auto;">
-                <img
-                    src="../assets/llm/tokens.jpg"
-                    alt="Screenshot of the OpenAI tokenizer showing the sentence about BPE split into 32 tokens across 105 characters, with tabs for GPT-5.x, GPT-4, and GPT-3 tokenizers."
-                    style="width: 100%; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.10);"
-                />
-                <figcaption style="margin-top: 20px; font-size: 1rem; color: #555; font-style: italic; line-height: 1.5;">
-                    <strong style="font-style: normal; color: #1a1a1a;">105 characters &rarr; 32 tokens. Rule of thumb: ~4 chars per token in English.</strong><br/>
-                    Each model generation uses a different tokenizer &mdash; same text, different token count, different cost.
-                </figcaption>
-            </figure>
-
-        </div>
+        <figure style="max-width: 1100px; width: 100%; margin: 60px auto 0;">
+            <img
+                src="../assets/llm/tokens.jpg"
+                alt="Screenshot of the OpenAI tokenizer showing the sentence about BPE split into 32 tokens across 105 characters, with tabs for GPT-5.x, GPT-4, and GPT-3 tokenizers."
+                style="width: 100%; border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.10);"
+            />
+        </figure>
     </div>
 
     <!-- ============================================================ -->
@@ -556,13 +544,12 @@
     <!-- SLIDE 14: Models are stateless                               -->
     <!-- ============================================================ -->
     <div class="slide" data-slide="14">
-        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 120px); text-align: center; gap: 0;">
 
             <!-- Title -->
-            <h1 style="border-bottom: none; padding-bottom: 0; font-size: 2.4rem; margin-bottom: 32px;">&#x1F4AC; Models are stateless</h1>
+            <h1>&#x1F4AC; Models are stateless</h1>
 
             <!-- Dialog diagram — two-column conversation -->
-            <div style="max-width: 700px; width: 100%; margin: 0 auto 28px;">
+            <div style="max-width: 700px; width: 100%; margin: 32px auto 28px;">
 
                 <!-- Column headers -->
                 <div style="display: flex; justify-content: space-between; margin-bottom: 14px; padding: 0 24px;">
@@ -605,10 +592,9 @@
             </div>
 
             <!-- Caption strip — mirrors slide-12 pattern -->
-            <p style="font-size: 1.6rem; font-weight: 700; color: #1a1a1a; margin: 8px 0 4px; letter-spacing: -0.02em; line-height: 1.2;">Every turn is a fresh API call.</p>
-            <p style="font-size: 1.1rem; font-weight: 400; color: #C0392B; margin: 0; letter-spacing: 0.01em;">Memory only exists if the harness replays the transcript.</p>
+            <p style="font-size: 1.6rem; font-weight: 700; color: #1a1a1a; margin: 8px 0 4px; letter-spacing: -0.02em; line-height: 1.2; text-align: center;">Every turn is a fresh API call.</p>
+            <p style="font-size: 1.1rem; font-weight: 400; color: #C0392B; margin: 0; letter-spacing: 0.01em; text-align: center;">Memory only exists if the harness replays the transcript.</p>
 
-        </div>
     </div>
 
     <!-- ============================================================ -->
@@ -617,11 +603,8 @@
     <div class="slide" data-slide="15">
 
         <!-- Headline -->
-        <div style="text-align: center; margin-bottom: 36px;">
-            <div style="font-size: 3.2rem; line-height: 1; margin-bottom: 12px;">&#x1F99C;</div>
-            <h1 style="border-bottom: none; padding-bottom: 0; font-size: 2.8rem; margin-bottom: 8px;">&ldquo;Stochastic Parrots&rdquo;</h1>
-            <p style="font-size: 1.1rem; color: #777; margin: 0;"><strong>Stochastic</strong> means random/probabilistic &mdash; models don&rsquo;t <em>know</em> the answer, they <em>sample</em> from a probability distribution.</p>
-        </div>
+        <h1>&#x1F99C; &ldquo;Stochastic Parrots&rdquo;</h1>
+        <p style="font-size: 1.1rem; color: #777; margin: 0 0 32px;"><strong>Stochastic</strong> means random/probabilistic &mdash; models don&rsquo;t <em>know</em> the answer, they <em>sample</em> from a probability distribution.</p>
 
         <!-- Probability distribution visual -->
         <div style="max-width: 720px; margin: 0 auto 32px; background: #f8f9fa; border-radius: 12px; padding: 28px 36px;">
@@ -687,10 +670,8 @@
     <div class="slide" data-slide="16">
 
         <!-- Headline -->
-        <div style="text-align: center; margin-bottom: 32px;">
-            <h1 style="border-bottom: none; padding-bottom: 0; font-size: 2.6rem; margin-bottom: 8px;">Even temperature&nbsp;=&nbsp;0 isn&rsquo;t deterministic.</h1>
-            <p style="font-size: 1.05rem; color: #777; margin: 0;">You set it to zero. You expect the same answer every time. You&rsquo;re wrong.</p>
-        </div>
+        <h1>&#x1F321;&#xFE0F; Even temperature&nbsp;=&nbsp;0 isn&rsquo;t deterministic.</h1>
+        <p style="font-size: 1.05rem; color: #777; margin: 0 0 32px;">You set it to zero. You expect the same answer every time. You&rsquo;re wrong.</p>
 
         <!-- Three beats -->
         <div style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
