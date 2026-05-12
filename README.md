@@ -157,8 +157,8 @@ Repos primarily known as curated libraries of subagent definitions (`.claude/age
 
 | Name | ★ | <img src="!/tags/a.svg" height="14"> |
 |------|---|---|
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 95k | 185 |
-| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 19k | 144 |
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 96k | 198 |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 20k | 189 |
 
 <p align="center">
   <img src="!/claude-jumping.svg" alt="section divider" width="60" height="50">
@@ -361,7 +361,7 @@ Repos primarily known as curated libraries of subagent definitions (`.claude/age
 ## 🎬 VIDEOS / PODCASTS
 
 | Video / Podcast | Source | YouTube |
-|-----------------|--------|---------|
+|-----------------|--------|--------|
 | From Vibe Coding to Agentic Engineering (Andrej) \| 02 May 2026 \| AI Engineer | [![Karpathy](!/tags/community-karpathy.svg)](https://x.com/karpathy) | [YouTube](https://www.youtube.com/watch?v=96jN2OCOfLs) |
 | Full Walkthrough: Workflow for AI Coding (Matt) \| 24 Apr 2026 \| Matt Pocock | [![Matt](!/tags/community-matt.svg)](https://x.com/mattpocockuk) | [YouTube](https://youtu.be/-QFHIoCo-Ko) |
 | Everything We Got Wrong About Research-Plan-Implement (Dex) \| 24 Mar 2026 \| MLOps Community | [![Dex](!/tags/community-dex.svg)](https://x.com/daborhyde) | [YouTube](https://youtu.be/YwZR6tc7qYg) |
