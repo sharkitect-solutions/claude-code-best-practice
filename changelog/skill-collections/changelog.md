@@ -67,3 +67,12 @@
 | 8 | MEDIUM | Count | Update VoltAgent/awesome-agent-skills curated count from 930+ to 1,100+ (reverts to README badge as source; prior 930+ was conservative bullet parse) | RECURRING (count source method debated 2026-04-29) |
 | 9 | HIGH | Sort | Swap row 5 (K-Dense-AI 20,758) with row 6 (VoltAgent 21,417) — VoltAgent moves up due to ~660 star lead | NEW |
 | 10 | LOW | No Change | addyosmani/agent-skills (27k/21) untouched — out of standard 5-repo research scope, awaiting separate review | COMPLETE (verified, manual entry preserved) |
+
+---
+
+## [2026-05-13 PKT] Skill Collections Update
+
+| # | Priority | Type | Action | Status |
+|---|----------|------|--------|--------|
+| 1 | HIGH | Add | Added pbakaus/impeccable (27k stars / 1 SKILL.md with 7 design domain references) at row 4, between wshobson/agents (35k) and addyosmani/agent-skills (27k); user-requested manual addition | COMPLETE (inserted into SKILL COLLECTIONS table) |
+| 2 | LOW | Note | Single-skill repo with 7 reference files (typography, color-and-contrast, spatial-design, motion-design, interaction-design, responsive-design, ux-writing), 23 commands, 27 anti-pattern rules — design language skill for frontend AI work | COMPLETE (count notation matches VoltAgent pattern of parenthetical clarification) |
